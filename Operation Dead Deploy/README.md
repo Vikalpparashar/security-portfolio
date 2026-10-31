@@ -63,6 +63,7 @@ Live multi-user Azure training tenant, Reader access, Azure Portal.
 <img width="1504" height="801" alt="Screenshot 2026-10-30 at 3 45 15 PM" src="https://github.com/user-attachments/assets/2cf2bbdc-23d0-452a-9798-58bbb2a10508" />
 <em>Fig.7 Effect Type: Audit</em>
 </p>  
+
 ## What broke / what surprised me
 The thing that surprised me was how small misses in policy creation can lead to disastrous outcome, in our case a naming policy was set to audit rather than deny, which allowed for the naming convention disaster.
 
