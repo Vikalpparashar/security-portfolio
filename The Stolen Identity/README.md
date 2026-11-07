@@ -94,7 +94,7 @@ Following are the findings of the investigation
 4. Setup policy to stop users to set the cadence of credentials to a long period.
 
 ## What I learned
-3 to 5 bullets. At least one technical, one "what I'd do differently."
+
 1. Identity is a boundary, if set properly can save a tenant from cataclysmic outcomes.
 2. Importance of phishing resistant MFAs.
 3. Importance of password rotation.
