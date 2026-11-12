@@ -1,3 +1,4 @@
+
 # [THE STOLEN IDENTITY]
 
 ## Scenario
@@ -23,7 +24,7 @@ A phished account had owner privileges to a privileged legacy app. Attacker crea
 1. Session Token was stolen of a phished user who had completed MFA.
 2. After getting the access to the victim's identity, attacker have looked around and found that the victim is owner for a legacy system. See Fig. 1
 <p align="center">
-<img width="1498" height="864" alt="Screenshot 2026-11-05 at 6 52 51 PM" src="https://github.com/user-attachments/assets/14691fca-dd4c-4144-b48d-62cbe44835ba" />
+<img width="1498" height="864" alt="Screenshot 2026-11-05 at 6 52 51 PM" src="https://github.com/user-attachments/assets/7cd61c95-e85d-4da9-9f1c-0fc7630bbb36" />
 <em>Fig1. Compromised App</em>
 </p>
 
