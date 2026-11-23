@@ -72,6 +72,13 @@ Reviewing the new notification service intern shipped before production promotio
 - Provide Intern with an operations playbook, which defines the structure of any operation and clearly explains the procedures.
 - Repetative training and continuous guidance for the intern, make sure they don't create resources on a Friday. Even if they do, it is under someone's guidance.
 
+| Priority | Finding | Recommendation |
+| --- | --- | --- |
+|01 - CRITICAL|Public Container Access|Contain the exposure immediately. Treat the publicly accessible data as an active exposure and determine what information was accessible and for how long.|
+|02 - HIGH | Inbound request enabled| A Deny rule must be put in place. The risk of accepting inbound requests without restrictions could lead to further exposure of private information. |
+|03 - MEDIUM | No managed Identity | No managed identity was configured. Static credentials or secrets may be used instead, which is less safe than using managed identities. |
+|04 - MEDIUM |Unexpected region|The expected region was Central US. Associated latency or unwanted cost increases are possible.|
+
 ## What I learned
 
 - Data transfer between different region is also considered as egress of data, and it will be billed like that.
