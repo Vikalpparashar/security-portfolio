@@ -76,5 +76,5 @@ Reviewing the new notification service intern shipped before production promotio
 
 - Data transfer between different region is also considered as egress of data, and it will be billed like that.
 - Use managed identities to handle authentication business, rather than storing passwords somewhere
-- Anonymous access on container will let anyone read information stored, even if they are not authenticated into azure.
+- Anonymous access level set as blob on container will let anyone read information stored, even if they are not authenticated into azure.
 - I would not deploy things on EOD Friday, because reviewer wont have time to check it and the earliest it could be reviewed is Moday.
